@@ -2677,13 +2677,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-social {
   /*margin: 20px 0;*/
-  margin-left: -20vw;
+  /* margin-left: -20vw; */
   margin-top: 35vh;
   font-size: 48px;
   display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   /*text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;*/
   /*text-transform: uppercase;*/
   /*Add media here*/
@@ -4848,7 +4848,7 @@ dl.accordion.time-line:before {
 
 .single-footer-widget h4 {
   color: #fff !important;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
   font-weight: 500;
 }
 
