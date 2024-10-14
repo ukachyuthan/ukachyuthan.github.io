@@ -64,6 +64,13 @@
 
       gtag("config", "UA-171009851-1");
     </script>
+
+    <!-- Custom CSS to center headings -->
+    <style>
+      .center-heading {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <!-- EDIT ME -->
@@ -72,8 +79,7 @@
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
             <a href="index.html"
-              ><img src="img/logos/ashay.png" width="48px" alt="" title=""
-            /></a>
+              ><img src="img/logos/ashay.png" width="48px" alt="" title=""/></a>
           </div>
           <nav id="nav-menu-container">
             <ul class="nav-menu">
@@ -84,19 +90,14 @@
               <li><a href="competitions.html">Competitions</a></li>
             </ul>
           </nav>
-          <!-- #nav-menu-container -->
         </div>
       </div>
     </header>
-    <!-- #header -->
-    <!-- EDIT ME -->
 
     <!-- Start Sample Area -->
     <section class="sample-text-area">
       <div class="container">
-        <h3 class="text-heading">
-          Some of the robotics projects I've completed.
-        </h3>
+        <h3 class="text-heading">Some of the robotics projects I've completed.</h3>
         <p>
           An icon <i class="fa fa-file-text-o"></i> indicates that a published
           document is available for more details. An icon
@@ -106,223 +107,100 @@
       </div>
     </section>
     <!-- End Sample Area -->
+
     <!-- Start Align Area -->
     <div class="whole-wrap">
       <div class="container">
+        <!-- Human-Robot Interaction -->
         <div class="section-top-border title text-center">
-          <hr
-            style="
-              height: 10px;
-              border: none;
-              color: #333;
-              background-color: #333;
-            "
-          />
-          <h3 class="mb-30">Human-Robot Interaction</h3>
+          <hr style="height: 10px; border: none; color: #333; background-color: #333;" />
+          <h3 class="mb-30 center-heading">Human-Robot Interaction</h3>
           <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <section id="projects" class="services">
                 <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/MultiRobotSystems/gaze.png"
-                    style="padding-bottom: 15px"
-                  />
+                  <img class="img-fluid" src="img/projects/MultiRobotSystems/gaze.png" style="padding-bottom: 15px" />
                   <h4>Human State Estimation</h4>
-                  <h2>
-		  </a
-                    >&nbsp;&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/10154152"
-                      ><i class="fa fa-file-text-o"></i
-                    ></a>
-                  </h2>
-                  <p>
-		      Used gaze based techniques to identify human mental workload and motion intent during teleoperation.
-                  </p>
+                  <h2><a href="https://ieeexplore.ieee.org/abstract/document/10154152"><i class="fa fa-file-text-o"></i></a></h2>
+                  <p>Used gaze based techniques to identify human mental workload and motion intent during teleoperation.</p>
                 </div>
               </section>
             </div>
-           
-          <hr
-            style="
-              height: 10px;
-              border: none;
-              color: #333;
-              background-color: #333;
-            "
-          />
-          <h3 class="mb-30">Deep Learning</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/DexNet2.0.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Image Captioning</h4>
-                  <h2></h2>
-                  <p>
-                    Implemented a deep learning approach using CNNs + LSTMs to caption images. Flickr8K dataset and InceptionV3 was used to caption the images.
-                  </p>
-                </div>
-              </section>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/captioning.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Implementation of 6-DOF GraspNet for Object Manipulation</h4>
-                  <h2></h2>
-                  <p>
-                    Implemented a deep learning-based approach for generating a 6-DOF grasp configurations using a CNN. The method enabled robots to grasp diverse objects with robust grasps for object manipulation.
-                  </p>
-                </div>
-              </section>
-            </div>
-		  
-          <hr
-            style="
-              height: 10px;
-              border: none;
-              color: #333;
-              background-color: #333;
-            "
-          />
-
-          <h3 class="mb-30">Reinforcement Learning</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/AI/Results.gif"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Grasp and Drop for Fetch Robot arm</h4>
-                  <h2><a href="https://arxiv.org/pdf/2001.03792"
-                      ><i class="fa fa-file-text-o"></i
-                    ></a></h2>
-                  <p>
-                    Used DDPG with Hindsight experience replay in the OpenAI gym environment to improve efficiency of model training to complete robot pick and place actions.
-                  </p>
-                </div>
-              </section>
-            </div>
-            <!-- End top-category-widget Area -->
           </div>
-          <hr />
-          
-          <hr
-            style="
-              height: 10px;
-              border: none;
-              color: #333;
-              background-color: #333;
-            "
-          />
-
-          <h3 class="mb-30">Controls</h3>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <section id="projects" class="services">
-                <div class="icon-box">
-                  <img
-                    class="img-fluid"
-                    src="img/projects/Controls/QuadCapture.png"
-                    style="padding-bottom: 15px"
-                  />
-                  <h4>Design and Validation of a Linear Controller for a Quadrotor</h4>
-                  <h2></h2>
-                  <p>
-                    Designed a controller that can operate in restricted airspace.
-                    Completed objective to fly and capture an unknown aerial vehicle and then return to the base
-                  </p>
-                </div>
-              </section>
-            </div>
         </div>
+
+        <!-- Deep Learning -->
+        <hr style="height: 10px; border: none; color: #333; background-color: #333;" />
+        <h3 class="mb-30 center-heading">Deep Learning</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <section id="projects" class="services">
+              <div class="icon-box">
+                <img class="img-fluid" src="img/projects/AI/DexNet2.0.png" style="padding-bottom: 15px" />
+                <h4>Image Captioning</h4>
+                <p>Implemented a deep learning approach using CNNs + LSTMs to caption images. Flickr8K dataset and InceptionV3 was used to caption the images.</p>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <section id="projects" class="services">
+              <div class="icon-box">
+                <img class="img-fluid" src="img/projects/AI/captioning.png" style="padding-bottom: 15px" />
+                <h4>Implementation of 6-DOF GraspNet for Object Manipulation</h4>
+                <p>Implemented a deep learning-based approach for generating a 6-DOF grasp configurations using a CNN. The method enabled robots to grasp diverse objects with robust grasps for object manipulation.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Reinforcement Learning -->
+        <hr style="height: 10px; border: none; color: #333; background-color: #333;" />
+        <h3 class="mb-30 center-heading">Reinforcement Learning</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <section id="projects" class="services">
+              <div class="icon-box">
+                <img class="img-fluid" src="img/projects/AI/Results.gif" style="padding-bottom: 15px" />
+                <h4>Grasp and Drop for Fetch Robot arm</h4>
+                <h2><a href="https://arxiv.org/pdf/2001.03792"><i class="fa fa-file-text-o"></i></a></h2>
+                <p>Used DDPG with Hindsight experience replay in the OpenAI gym environment to improve efficiency of model training to complete robot pick and place actions.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <hr style="height: 10px; border: none; color: #333; background-color: #333;" />
+        <h3 class="mb-30 center-heading">Controls</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <section id="projects" class="services">
+              <div class="icon-box">
+                <img class="img-fluid" src="img/projects/Controls/QuadCapture.png" style="padding-bottom: 15px" />
+                <h4>Design and Validation of a Linear Controller for a Quadrotor</h4>
+                <p>Designed a controller that can operate in restricted airspace. Completed objective to fly and capture an unknown aerial vehicle and then return to the base.</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <!-- End timeline Area -->
-    <!-- EDIT FOOT -->
-    <!-- start footer Area -->
+    <!-- Footer -->
     <footer class="footer-area section-gap">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-6 col-sm-6">
             <div class="single-footer-widget">
-              <p class="footer-text">
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                All rights reserved | This template is made with
-                <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                <a href="https://colorlib.com">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <h6>About Me</h6>
+              <p>
+                PhD in Robotics, with interests in Human-Robot Interaction, Deep Learning, and Control Systems.
               </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-            <div class="single-footer-widget">
-              <h4>Follow Me</h4>
-              <div class="footer-social d-flex align-items-center">
-                <a
-                  title="Google Scholar"
-                  href="https://scholar.google.com/citations?user=l5UW238AAAAJ&hl=en"
-                  style="padding-top: 9px"
-                  class="ai"
-                  ><i class="ai ai-google-scholar"></i
-                ></a>
-                <a
-                  title="Github"
-                  href="https://github.com/ukachyuthan"
-                  class="github"
-                  ><i class="fa fa-github"></i
-                ></a>
-                <a title="Email" href="mailto:aunnikrishnan@wpi.edu"
-                  ><i class="fa fa-envelope"></i
-                ></a>
-                <a
-                  title="LinkedIn"
-                  href="https://www.linkedin.com/in/achyuthan-unnikrishnan/"
-                  class="linkedin"
-                  ><i class="fa fa-linkedin-square"></i
-                ></a>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- End footer Area -->
-    <!-- EDIT FOOT -->
-
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.tabs.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/simple-skillbar.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
